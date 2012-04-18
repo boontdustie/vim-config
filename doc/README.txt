@@ -1,8 +1,5 @@
 Plugins:
 
-a) Pathogen
-
-
 bundles/
   GIT-VIM: git clone https://github.com/motemen/git-vim.git
   VIM-RAILS: git clone git://github.com/tpope/vim-rails.git 

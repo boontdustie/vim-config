@@ -81,4 +81,10 @@ map <leader>tm :tabmove
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 
+" http://stackoverflow.com/questions/3785628/format-ruby-code-in-vim
+if has("autocmd")
+  filetype indent on
+endif

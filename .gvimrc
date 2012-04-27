@@ -9,5 +9,6 @@ set background=light              " Background.
 set lines=225 columns=78          " Window dimensions.
 set tw=78
 set guioptions-=r                 " Don't show right scrollbar
-
-
+colorscheme vividchalk 
+set wrap                          " Turn on line wrapping.
+set tw=72			  " Wrap 74 lines of text
